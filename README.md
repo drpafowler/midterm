@@ -4,7 +4,22 @@
 This is my effort to classify mushrooms
 
 ## Overview
-Overview of your project.
+The goal of this project is to classify mushrooms as edible or poisonous.  That is not a hugely challenging task as this data set has been well examined in numerour places on the internet.  What I am curious to look at here is the effect of different approaches to data cleaning and  feature selection on the models.  
+
+Here's what I propose to do:
+
+The data will be cleaned in the following ways:
+1. Uncleaned as is
+2. Remove columns with missing data
+3. Run iterations of the model with different combinations of columns removed.  Specifically, I want to try a few statistical methods to determine which columns are most important.  I will use the following methods:
+    - Chi-squared
+    - Recursive Feature Elimination
+
+
+The models I will use are:
+1. Logistic Regression
+3. Decision Tree
+4. Support Vector Machine   
 
 The data comes from: https://archive.ics.uci.edu/dataset/73/mushroom 
 

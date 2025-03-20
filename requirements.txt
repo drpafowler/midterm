@@ -6,3 +6,6 @@ matplotlib
 seaborn
 ucimlrepo
 scikit-learn
+scipy
+statsmodels
+xgboost
