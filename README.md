@@ -3,6 +3,9 @@
 ## My package
 This is my effort to classify mushrooms
 
+## Results Table
+![Results Table](results_table.png)
+
 ## Overview
 The goal of this project is to classify mushrooms as edible or poisonous.  That is not a hugely challenging task as this data set has been well examined in numerour places on the internet.  What I am curious to look at here is the effect of different approaches to data cleaning and  feature selection on the models.  
 
