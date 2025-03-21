@@ -3,9 +3,6 @@
 ## My package
 This is my effort to classify mushrooms
 
-## Results Table
-![Results Table](results_table.png)
-
 ## Overview
 The goal of this project is to classify mushrooms as edible or poisonous.  That is not a hugely challenging task as this data set has been well examined in numerour places on the internet.  What I am curious to look at here is the effect of different approaches to data cleaning and  feature selection on the models.  
 
@@ -25,6 +22,15 @@ The models I will use are:
 4. Support Vector Machine   
 
 The data comes from: https://archive.ics.uci.edu/dataset/73/mushroom 
+
+## Results Table
+![Results Table](results_table.png)
+
+## Observations
+1) This data set is very easy to achieve 100% accuracy with.  With no data cleaning whatsoever, one can achieve 100% accuracy when including all features and with all three of the models.
+2) Even when dropping the columns with missing data, the accuracy remains at 100% for all three models.
+3) Using Chi-Square and RFE to select the ten best features, the accuracy remains at 100% for all three models.
+4) When reduced to the five top features, then accuracy drops to between 94-95%.  The greatest concen though is the false negatives with all three models.  There were between 53-64 false negatives; which means that 53-64 times the model predicted a mushroom as edible when it was not edible.  Efforts were made to tune some parameters such as class_weight; however, this did not make much of a difference.  Perhaps there is still room for improvement here; however, the better approach is probably to use more features.  
 
 ## Author(s)
 Philip Fowler
