@@ -1,4 +1,5 @@
 # Machine Learning Midterm
+https://github.com/drpafowler/midterm/blob/main/mushroom_midterm.ipynb
 
 ## My package
 This is my effort to classify mushrooms
